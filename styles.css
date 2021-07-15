@@ -390,6 +390,7 @@ tr td:first-child {
 
 .instructions {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .link {

@@ -304,6 +304,10 @@ ul.txt-item {
   }
 }
 
+.directions ol {
+  padding: 0;
+}
+
 video {
   height: 300px;
   display: block;

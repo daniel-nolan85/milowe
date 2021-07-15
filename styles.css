@@ -39,7 +39,7 @@ header {
     height: 30px;
     position: fixed;
     top: 25px;
-    right: 50px;
+    right: 100px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -286,15 +286,45 @@ ul.txt-item {
 
 @media (max-width: 700px) {
   .proc-img-item1,
-  .proc-img-item2 {
+  .proc-img-item2,
+  .res-img-item1,
+  .res-img-item2,
+  .res-img-item3 {
     width: 300px;
   }
 }
 
 @media (max-width: 400px) {
   .proc-img-item1,
-  .proc-img-item2 {
+  .proc-img-item2,
+  .res-img-item1,
+  .res-img-item2,
+  .res-img-item3 {
     width: 200px;
+  }
+}
+
+video {
+  height: 300px;
+  display: block;
+  margin: 4rem auto;
+}
+
+@media (max-width: 700px) {
+  video {
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  video {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  video {
+    height: 150px;
   }
 }
 
@@ -356,30 +386,6 @@ th {
 
 tr td:first-child {
   background-color: #c0c0c0;
-}
-
-video {
-  height: 300px;
-  display: block;
-  margin: 4rem auto;
-}
-
-@media (max-width: 700px) {
-  video {
-    height: 250px;
-  }
-}
-
-@media (max-width: 600px) {
-  video {
-    height: 200px;
-  }
-}
-
-@media (max-width: 480px) {
-  video {
-    height: 150px;
-  }
 }
 
 .instructions {
@@ -662,6 +668,8 @@ textarea.input {
   .txt-item,
   .directions,
   table,
+  .questions,
+  .upload-results,
   .text,
   .information,
   .social-media p {

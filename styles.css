@@ -392,10 +392,6 @@ tr td:first-child {
   text-align: center;
 }
 
-.qr {
-  height: 200px;
-}
-
 .link {
   text-decoration: none;
   color: #6495ed;
